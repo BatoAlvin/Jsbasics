@@ -29,8 +29,17 @@ header3.style.color = 'green';
 header3.style.fontSize = '25px';
 
 //Setattributes
+var setPray = document.querySelector('.header4');
+setPray.setAttribute('style', 'color: aqua; font-size: 20px;');
 
-
+//Getattribute
+// var getPray = document.querySelector('.header5');
+// getPray.getAttribute('type');
+// console.log(getPray);
+var getPray = document.querySelector('.header4');
+getPray.getAttribute('type');
+getPray.innerHTML = 'Display something';
+document.body.appendChild(getPray);
 
 //Normal function
 function hello(){

@@ -64,12 +64,4 @@ var languages = ['js','node','python','php'];
 var lang = languages.indexOf('node');
 console.log(lang);
 
-//Loops
-// for (var x=1;x<=10;x++){
-//     console.log(""+(5*x)+"");
-// }
 
-// var nam = 1;
-// while (nam<10){
-//     console.log(nam);
-// }
